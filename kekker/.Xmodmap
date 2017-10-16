@@ -1,0 +1,2 @@
+! Swap CapsLock and Backspace
+remove Lock = 66

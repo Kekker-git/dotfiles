@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="USB_Mixer" mtime="1506808416" type="bool" value="true"/>
+	<entry name="ATI_R6xx_HDMI" mtime="1506808416" type="bool" value="false"/>
+	<entry name="Realtek_ALC892" mtime="1506808416" type="bool" value="true"/>
+</gconf>

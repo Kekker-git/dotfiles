@@ -1,0 +1,1 @@
+var port=browser.runtime.connect({name:"legacy-data"});port.onMessage.addListener(function(e){keys={globalPrefs:JSON.stringify(e.globalPrefs)},e.usernameHash&&(keys["userPrefs_"+e.usernameHash]=JSON.stringify(e.userPrefs)),browser.storage.local.set(keys)});

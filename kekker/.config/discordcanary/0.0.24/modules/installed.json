@@ -1,0 +1,14 @@
+{
+  "discord_rpc": {
+    "installedVersion": 80
+  },
+  "discord_toaster": {
+    "installedVersion": 80
+  },
+  "discord_utils": {
+    "installedVersion": 80
+  },
+  "discord_voice": {
+    "installedVersion": 81
+  }
+}

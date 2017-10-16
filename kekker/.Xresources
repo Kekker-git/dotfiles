@@ -1,0 +1,33 @@
+!! XFT stuff
+Xft.antialias: true
+
+!! URxvt stuff
+URxvt.internalBorder: 3
+
+! Transparency
+URxvt.transparent: true
+URxvt.shading: 60
+
+! Font
+URxvt.font: xft:Hermit:pixelsize=17
+URxvt.boldFont: xft:Hermit:bold:pixelsize=18
+
+! Background
+URxvt.background: black
+URxvt.foreground: white
+
+! Lines saved
+URxvt.saveLines: 12000
+
+! Scrollbar stuff
+URxvt.scrollBar: true
+URxvt.scrollBar_right: true
+URxvt.scrollBar_left: false
+URxvt.scrollstyle: xterm
+URxvt.scrollBar_floating: true
+
+URxvt.secondaryWheel: 1
+
+!! Emacs
+Emacs.font: Hermit
+

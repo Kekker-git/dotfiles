@@ -1,0 +1,6 @@
+ReceiveMessage 103000 Alice Hey
+ReceiveMessage 103001 Alice I'm smart
+ReceiveMessage 103002 Alice and I love cookies
+OpenApp
+DisplayConversation Alice
+DeleteMessage 103000 Alice

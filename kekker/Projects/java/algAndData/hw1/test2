@@ -1,0 +1,6 @@
+ReceiveMessage 103000 Alice Hello
+ReceiveMessage 103030 Alice Sup
+ReceiveMessage 103010 Alice Howza
+OpenApp
+DisplayConversation Alice
+CloseApp

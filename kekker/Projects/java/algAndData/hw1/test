@@ -1,0 +1,9 @@
+ReceiveMessage 103000 Alice Hello
+ReceiveMessage 103030 Alice Haven't heard from you in a long time
+ReceiveMessage 103010 Alice How are you?
+ReceiveMessage 103025 Alice Haven't seen you in a while
+OpenApp
+DisplayConversation Alice
+SendMessage 104035 Alice Hi
+SendMessage 104040 Alice Yeah it's been a long time
+CloseApp

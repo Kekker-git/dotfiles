@@ -1,0 +1,23 @@
+ReceiveMessage 103000 Alice Hello
+ReceiveMessage 103008 Bob Hey
+ReceiveMessage 103030 Alice Haven't heard from you in a long time
+ReceiveMessage 103010 Alice How are you?
+ReceiveMessage 103110 Bob r u there?
+ReceiveMessage 103200 Carol Hey
+OpenApp
+DisplayConversation Alice
+SendMessage 104035 Alice Hi
+SendMessage 104040 Alice Yeah it's been a long time
+DisplayConversation Bob
+SendMessage 104050 Bob Yeah
+DeleteMessage 103110 Bob
+CloseApp
+ReceiveMessage 104100 Bob What took you so long to reply
+ReceiveMessage 104218 Carol I haven't even started
+ReceiveMessage 104225 Carol I doubt I'll be able to finish on time
+ReceiveMessage 104215 Carol Did u complete the assignment
+OpenApp
+DisplayConversation Bob
+DisplayConversation Carol
+SendMessage 104300 Carol Yeah I have completed
+CloseApp

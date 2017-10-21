@@ -1,0 +1,236 @@
+/*
+
+  Author: Calvin Williams
+  Email: cwilliams2016@my.fit.edu
+  Course: Algorithms and Data Structures
+  Section: 3
+  Description: A system that can handle incoming patients,
+  organized by severity level.
+*/
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class HW4
+{
+  // -------------------- Priority class ----------------
+  private static class Priority implements Comparable<Priority>
+  {
+    private int t, e;
+    public Priority(int time, int esi)
+    {
+      t = time;
+      e = esi;
+    }
+
+    public int getTime()
+    {
+      return t;
+    }
+		
+    public int getESI()
+    {
+      return e;
+    }
+		
+    public int compareTo(Priority p)
+    {
+      if (t != e)
+	return Integer.compare(this.e, p.e);
+      return Integer.compare(this.t, p.t);
+    }
+		
+    public String toString()
+    {
+      return Integer.toString(t) + " " + Integer.toString(e);
+    }
+  } // --------------------------------------------------
+
+  public static class Patient
+  {
+    private String n;
+    private boolean t;
+
+    public Patient(String name)
+    {	
+      n = name;
+      t = false;
+    }
+
+    public void treat()
+    {
+      t = true;
+    }
+
+    public boolean beingTreated()
+    {
+      return t;
+    }
+
+    public String getName()
+    {
+      return n;
+    }
+  }
+  // -------------------- Doctor class ------------------
+  public static class Doctor
+  {
+    String n;
+    boolean b;
+    int t;
+    public Doctor(String name)
+    {
+      n = name;
+      b = false;
+      t = 0;
+    }
+
+    public boolean isBusy(int time)
+    {
+      if (t < time)
+      {
+	b = false;
+      }
+      return b;
+    }
+
+    /**
+     * THIS IS WHAT YOU NEED TO WORK ON.
+     * Get the patients from the priority queue,
+     * and treat the one on top. If they are being
+     * treated, remove them from the queue. Maybe
+     * add a "treating" status to the doc with the
+     * patient's name? Idk.
+     */
+    public void startTreatment()
+    {
+      int time = 0, esi = 0;
+      String patient = "";
+      for (int i = 0; i < patients.size(); i++)
+      {
+	if (!patients.get(i).getValue().beingTreated())
+	{				
+	  time = patients.get(i).getKey().getTime();
+	  esi = patients.get(i).getKey().getESI();
+	  patient = patients.get(i).getValue().getName();
+	}
+      }
+      if (t != 0)
+	System.out.println("doctorStartsTreatingPatient " + t + " " + n + " " + patient);
+      else
+	System.out.println("doctorStartsTreatingPatient " + time + " " + n + " " + patient);
+      int free = (int) Math.pow(2, (6 - esi));
+      t = free + time;
+      b = true;
+      System.out.println(n + " will be done in " + free + " minutes.");
+    }
+  } // --------------------------------------------------
+
+  // public static  Comparator<Priority> comp;
+  public static HeapAdaptablePriorityQueue<Priority, Patient> patients =
+    new HeapAdaptablePriorityQueue<>();
+  public static ArrayList<Doctor> doctors = new ArrayList<>();
+  
+  public static void patientArrives(int time, String patient, int esi)
+  {
+    Priority priority = new Priority(time, esi);
+    Patient p = new Patient(patient);
+    patients.insert(priority, p);
+    System.out.println("patientArrives " + time + " " + patient + " " + esi);
+  }
+
+  public static void updatePatientESI(int time, String patient, int n_esi)
+  {
+    Priority p = new Priority(time, n_esi);
+    for (int i = 0; i < patients.size(); i++)
+    {
+      if (patients.get(i).getValue().getName().equals(patient))
+      {
+	patients.replaceKey(patients.get(i), p);
+	System.out.println("updatePatientESI" + time + " " + patient + " " + n_esi);
+	break;
+      }
+    }
+  }
+
+  public static void patientDepartsAfterNurseTreatment(int time, String patient)
+  {
+
+  }
+
+  public static void doctorArrives(int time, String doctor)
+  {
+
+  }
+
+  public static void doctorStartsTreatingPatient(int time)
+  {
+    for (Doctor d : doctors)
+    {
+      if (!d.isBusy(time) && patients.size() != 0)
+      {
+	d.startTreatment();
+	break;
+      }
+    }
+  }
+
+  public static void doctorFinishesTreatmentAndPatientDeparts(int time, String doctor, String patient)
+  {
+
+  }
+
+  public static void main(String[] args)
+    throws IOException
+  {
+    Scanner scan = new Scanner(new File(args[0]));
+
+    String inLine, command, patient, doctor;
+    int time, esi, hours, mins;
+    String[] split;
+    doctors.add(new Doctor("Alice")); doctors.add(new Doctor("Bob"));
+    
+    while(scan.hasNext())
+    {
+      inLine = scan.nextLine();
+      split = inLine.split(" ");
+      command = split[0];
+      // System.out.println(command);
+      time = Integer.parseInt(split[1]);
+      mins = time % 100;
+      hours = time / 100;
+      time = hours + mins;
+      System.out.println("Time: " + time);
+
+      doctorStartsTreatingPatient(time);
+      switch (command)
+      {
+      case "patientArrives":
+	patient = split[2];
+	esi = Integer.parseInt(split[3]);
+	patientArrives(time, patient, esi);
+	break;
+      case "updatePatientESI":
+	patient = split[2];
+	esi = Integer.parseInt(split[3]);
+	updatePatientESI(time, patient, esi);
+	break;
+      case "patientDepartsAfterNurseTreatment":
+	patient = split[2];
+	patientDepartsAfterNurseTreatment(time, patient);
+	break;
+      case "doctorArrives":
+	time = Integer.parseInt(split[1]);
+	doctor = split[2];
+	doctorArrives(time, doctor);
+	break;
+      }
+      System.out.println();
+    }
+  }
+  
+}
+

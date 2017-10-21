@@ -1,0 +1,63 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("d:/cygwin/home/Kekker_/" . "dotfiles/")
+ ("d:/cygwin/home/" . "Kekker_/")
+ ("d:/cygwin/" . "home/")
+ ("d:/Documents/Projects/Java/algAndData/" . "hw4/")
+ ("d:/Documents/Projects/Java/" . "algAndData/")
+ ("d:/Documents/Projects/" . "Java/")
+ ("d:/Documents/" . "Projects/")
+ ("d:/" . "cygwin/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "d:/Documents/Projects/Java/algAndData/hw4/"
+ "d:/cygwin/home/Kekker_/dotfiles/"
+ "d:/Documents/Projects/Java/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "AbstractPriorityQueue.java"
+ "HeapPriorityQueue.java"
+ "AdaptablePriorityQueue.java"
+ ".gitignore"
+ "HeapAdaptablePriorityQueue.java"
+ "in1"
+ "HW4.java"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("d:/Documents/Projects/Java/algAndData/hw4/" (23018 37608 0 0) "PriorityQueue.java" "PriorityQueue.class" "in1" "HW4.java" "HW4.class" "HW4$Priority.class" "HeapPriorityQueue.java" "HeapPriorityQueue.class" "HeapAdaptablePriorityQueue.java" "HeapAdaptablePriorityQueue.class" "HeapAdaptablePriorityQueue$AdaptablePQEntry.class" "Entry.java" "Entry.class" "DefaultComparator.java" "DefaultComparator.class" "AdaptablePriorityQueue.java" "AdaptablePriorityQueue.class" "AbstractPriorityQueue.java" "AbstractPriorityQueue.class" "AbstractPriorityQueue$PQEntry.class" ".#HW4.java" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/dotfiles/" (23018 35095 0 0) "programs" "kekker/" "aur" ".git/" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/" (23018 35125 0 0) "kekker.tar" "dotfiles/" ".profile" ".inputrc" ".bash_profile" ".bash_history" ".bashrc" "../" "./")
+
+ ("d:/cygwin/home/" (23018 33160 0 0) "Kekker_/" "../" "./")
+
+ ("d:/cygwin/" (23018 32165 0 0) "var/" "usr/" "tmp/" "sbin/" "lib/" "home/" "etc/" "dev/" "Cygwin.ico" "Cygwin.bat" "Cygwin-Terminal.ico" "bin/" "../" "./")
+
+ ("d:/Documents/Projects/Java/algAndData/" (23018 19228 0 0) "hw4/" "../" "./")
+
+ ("d:/Documents/Projects/Java/" (23018 19224 0 0) "algAndData/" "../" "./")
+
+ ("d:/Documents/Projects/" (23018 18772 0 0) "Python/" "Java/" "HTML/" "C++/" "../" "./")
+
+ ("d:/Documents/" (23018 18772 0 0) "Voicemeeter/" "Streamtip/" "StreamProjects/" "REAPER Media/" "puNES/" "Projects/" "programs.txt" "Overwatch/" "My Games/" "MouseAccelDriver/" "MIS/" "Mesen/" "makehuman/" "Kubbi - Ember (2015) WAV/" "importantstuff/" "house.skp" "house.skb" "GimpProjects/" "FeedbackHub/" "Electronic Arts/" "Dolphin Emulator/" "DnD/" "desktop.ini" "colemak-caps/" "Bluetooth Exchange Folder/" "Audacity/" "Assignment_Solver_Calvin_Williams.xlsx" "Activision/" "../" "./")
+
+ ("d:/.QtWebEngineProcess/" (22782 54090 0 0) "../" "./")
+
+ ("d:/Programs/" (23018 18390 0 0) "VMWare/" "Steam/" "REAPER (x64)/" "qemu/" "qBittorrent/" "LibreOffice 5/" "Firefox/" "emacs/" "desktop.ini" "7-Zip/" "../" "./")
+
+ ("d:/Programs/emacs/" (23018 18438 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("d:/Programs/emacs/bin/" (23018 18393 0 0) "runemacs.exe" "libXpm-noX4.dll" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.3.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

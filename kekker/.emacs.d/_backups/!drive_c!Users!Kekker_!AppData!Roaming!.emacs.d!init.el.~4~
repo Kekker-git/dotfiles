@@ -1,0 +1,123 @@
+(require 'package)
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (url (concat (if no-ssl "http" "https") "://melpa.org/packages/")))
+  (add-to-list 'package-archives (cons "melpa" url) t))
+(when (< emacs-major-version 24)
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize)
+
+
+
+(progn
+  (unless (fboundp 'helm-mode)
+    (ido-mode t)
+    (setq ido-enable-flex-matching t))
+
+  (menu-bar-mode -1)
+  (when (fboundp 'tool-bar-mode)
+    (tool-bar-mode -1))
+  (when (fboundp 'scroll-bar-mode)
+    (scroll-bar-mode -1))
+  (when (fboundp 'horizontal-scroll-bar-mode)
+    (horizontal-scroll-bar-mode -1))
+
+  (autoload 'zap-up-to-char "misc"
+    "Kill up to, but not including ARGth occurrence of CHAR." t)
+
+  (require 'uniquify)
+  (setq uniquify-buffer-name-style 'forward)
+
+  (require 'saveplace)
+  (setq-default save-place t)
+
+  (global-unset-key (kbd "C-z"))
+  (global-unset-key (kbd "C-x C-z"))
+
+  (global-set-key (kbd "C-x y") 'save-buffer)
+  (global-set-key (kbd "M-/") 'hippie-expand)
+  (global-set-key (kbd "C-x C-b") 'ibuffer)
+  (global-set-key (kbd "M-z") 'zap-up-to-char)
+
+  (global-set-key (kbd "C-s") 'isearch-forward-regexp)
+  (global-set-key (kbd "C-r") 'isearch-backward-regexp)
+  (global-set-key (kbd "C-M-s") 'isearch-forward)
+  (global-set-key (kbd "C-M-r") 'isearch-backward)
+
+  (require 'multiple-cursors)
+  (global-set-key (kbd "C-c c") 'mc/edit-lines)
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+  (global-set-key (kbd "C-c t") 'linum-relative-toggle)
+
+  ;; Eclim for code completion
+  (require 'eclim)
+  (global-eclim-mode)
+  (require 'auto-complete-config)
+  (ac-config-default)
+  (require 'ac-emacs-eclim-source)
+  (ac-emacs-eclim-config)
+  (require 'company)
+  (require 'company-emacs-eclim)
+  (company-emacs-eclim-setup)
+  (global-company-mode t)
+
+  (show-paren-mode 1)
+
+  (setq-default indent-tabs-mode nil)
+  (c-set-offset 'substatement-open 0)
+  (setq c-basic-offset 2)
+  (setq cperl-indent-level 2)
+
+  (setq save-interprogram-paste-before-kill t
+        apropos-do-all t
+        mouse-yank-at-point t
+        require-final-newline t
+        visible-bell t
+        load-prefer-newer t
+        electric-pair-mode t
+        ediff-window-setup-function 'ediff-setup-windows-plain
+        save-place-file (concat user-emacs-directory "places"))
+
+  (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+  ;; Backup configuration
+  (defvar --backup-directory (concat user-emacs-directory "_backups"))
+  (if (not (file-exists-p --backup-directory))
+      (make-directory --backup-directory t))
+  (setq backup-directory-alist `(("." . ,--backup-directory)))
+  (setq make-backup-files t
+        backup-by-copying t
+        version-control t
+        delete-old-versions t
+        delete-by-moving-to-trash t
+        kept-old-versions 4
+        kept-new-versions 6
+        auto-save-default t
+        auto-save-timeout 20
+        auto-save-interval 200))
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (atom-dark)))
+ '(custom-safe-themes
+   (quote
+    ("e9460a84d876da407d9e6accf9ceba453e2f86f8b86076f37c08ad155de8223c" default)))
+ '(electric-pair-mode t)
+ '(global-linum-mode t)
+ '(package-selected-packages
+   (quote
+    (eclim multiple-cursors linum-relative atom-dark-theme))))
+(provide 'init)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+(put 'downcase-region 'disabled nil)

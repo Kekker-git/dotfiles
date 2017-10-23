@@ -5,8 +5,13 @@
       '(
         c-electric-delete-forward
         forward-sentence
+        org-beginning-of-line
+        org-end-of-line
+        org-self-insert-command
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        ibuffer
+        org-cycle
         ))

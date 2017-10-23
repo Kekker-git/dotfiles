@@ -26,14 +26,16 @@
 (use-package dot-mode)
 (use-package multiple-cursors
   :ensure t
-  :bind ("C-c c" . mc/edit-lines)
-        ("C->" . mc/mark-next-like-this)
-        ("C-<" . mc/mark-previous-like-this)
-        ("C-c C-<" . mc/mark-all-like-this))
+  :config
+  (global-set-key (kbd "C-c c") 'mc/edit-lines)
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
 (use-package org-mode
   :mode "\\.org\\'"
-  :bind ("C-c o" . org-mode)
   :init
+  (global-set-key (kbd "C-c o") 'org-mode)
+  :config
   (add-hook 'org-mode-hook 'visual-line-mode))
 
 ;;;;;;;;;;

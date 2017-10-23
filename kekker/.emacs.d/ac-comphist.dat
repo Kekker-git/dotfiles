@@ -1,0 +1,52 @@
+((("org-mode" .
+   [0 0 0 0 0 0 0 1])
+  ("major-mode" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("setq-default" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("time" .
+   [8 0 0 0])
+  ("patientTime" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("ArrivalTime" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("patient" .
+   [3 0 0 0 0 0 1])
+  ("System" .
+   [4 0 0 0 0 0])
+  ("out" .
+   [3 0 0])
+  ("println" .
+   [3 0 0 0 0 0 0])
+  ("patients" .
+   [4 0 0 0 0 0 0 0])
+  ("isEmpty" .
+   [2 0 0 0 0 0 0])
+  ("scan" .
+   [1 0 0 0])
+  ("size" .
+   [3 0 0 0])
+  ("doctorStartsTreatingPatient" .
+   [0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("doctors" .
+   [11 0 0 0 0 0 0])
+  ("Collections" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("sort" .
+   [1 0 0 0])
+  ("get" .
+   [8 0 0])
+  ("freeAt" .
+   [5 0 0 0 0 0])
+  ("doctor" .
+   [1 0 0 0 0 0])
+  ("isBusy" .
+   [1 0 0 0 0 0])
+  ("doctorFinishesTreatmentAndPatientDeparts" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("forceFinish" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("false" .
+   [1 0 0 0 0])
+  ("cd" .
+   [1 0])))

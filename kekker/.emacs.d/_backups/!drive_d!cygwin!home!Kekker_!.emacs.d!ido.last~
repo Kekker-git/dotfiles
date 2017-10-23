@@ -4,7 +4,7 @@
 (
  ("d:/cygwin/home/Kekker_/Projects/Notes/" . "stats/")
  ("d:/cygwin/home/Kekker_/Projects/" . "Notes/")
- ("d:/cygwin/home/Kekker_/.emacs.d/" . "lisp/")
+ ("d:/cygwin/home/Kekker_/.emacs.d/" . "_backups/")
  ("c:/Users/Kekker_/AppData/Roaming/" . ".emacs.d/")
  ("c:/Users/Kekker_/AppData/" . "Roaming/")
  ("c:/Users/Kekker_/" . "AppData/")
@@ -22,7 +22,6 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "d:/cygwin/home/Kekker_/.emacs.d/lisp/"
  "d:/cygwin/home/Kekker_/Projects/Notes/stats/"
  "d:/cygwin/home/Kekker_/.emacs.d/"
  "d:/Documents/Projects/Java/algAndData/hw4/"
@@ -33,25 +32,23 @@
 
 ;; ----- ido-work-file-list -----
 (
- "code.el"
- "org.el"
- "backups.el"
- "multicursor.el"
- "defaults.el"
- "chapter4questions.org"
- "init.el"
- "chapter4questions"
  "chapter4"
+ "chapter4questions"
+ "init.el"
  "ido.last"
+ "output"
+ "HW4.java"
+ "output.txt"
+ "in2"
+ "in1"
+ "HeapPriorityQueue.java"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("d:/cygwin/home/Kekker_/.emacs.d/lisp/" (23021 26634 0 0) "org.el" "multicursor.el" "dot-mode.el" "defaults.el" "code.el" "backups.el" "../" "./")
+ ("d:/cygwin/home/Kekker_/Projects/Notes/stats/" (23021 12640 0 0) "chapter4" ".#chapter4questions" "#chapter4questions#" "../" "./")
 
- ("d:/cygwin/home/Kekker_/.emacs.d/" (23021 26154 0 0) "_backups/" "lisp/" "init.el~" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".emacs.d/" "../" "./")
-
- ("d:/cygwin/home/Kekker_/Projects/Notes/stats/" (23021 25978 0 0) "chapter4questions.org" "chapter4.org" "../" "./")
+ ("d:/cygwin/home/Kekker_/.emacs.d/" (23021 12504 0 0) "_backups/" "init.el~" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".emacs.d/" "../" "./")
 
  ("d:/cygwin/home/Kekker_/.emacs.d/_backups/" (23021 1016 0 0) "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~4~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~3~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~31~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~30~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~2~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~29~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~28~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~27~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~26~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~7~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~6~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~5~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~4~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~3~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~2~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!in1.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HW4.java.~2~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HW4.java.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HeapPriorityQueue.java.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HeapAdaptablePriorityQueue.java.~1~" "!drive_d!cygwin!home!Kekker_!Projects!Notes!stats!chapter4.~3~" "!drive_d!cygwin!home!Kekker_!Projects!Notes!stats!chapter4.~2~" "!drive_d!cygwin!home!Kekker_!Projects!Notes!stats!chapter4.~1~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~4~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~3~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~2~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~28~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~27~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~26~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~25~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~24~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~23~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~1~" "!drive_d!cygwin!home!Kekker_!.emacs.d!ido.last~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~7~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~6~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~5~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~4~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~3~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~2~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~1~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!ido.last~" "../" "./")
 

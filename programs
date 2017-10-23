@@ -1,36 +1,36 @@
-#!/bin/bash
-pacman -S
-# community
-          i3 \
-          alsa-utils \
-          apulse \
-          blender \
-          breeze-icons \
-          cmake \
-          deepin-gtk-theme \
-          dmenu \
-          pcmanfm \
-          qbittorrent \
-          scrot \
-          sshfs \
-          wine_mono \
-          winetricks \
-# extra
-          emacs \
-          feh \
-          gimp \
-          git \
-          gparted \
-          hicolor-icon-theme \
-          jack \
-          jdk8-openjdk \
-          rsync \
-          sddm \
-          unrar \
-          unzip \
-          vlc \
-          zip \
-# multilib
-          steam \
-          wine \
-          wine_gecko \
+alsa-utils
+apulse
+blender
+breeze-icons
+cmake
+deepin-gtk-theme
+discord-canary
+dmenu
+emacs
+feh
+gimp
+gparted
+hicolor-icon-theme
+i3-gaps-git
+jack
+jdk8-openjdk
+obs-studio-git
+otf-hermit
+pcmanfm
+polybar-git
+qbittorrent
+qt5-graphicaleffects
+rsync
+rxvt-unicode-better-wheel-scrolling
+sc-controller-git
+scrot
+sddm
+spotify
+sshfs
+steam
+ttf-ms-fonts
+unrar
+unzip
+vlc
+xorg
+zip

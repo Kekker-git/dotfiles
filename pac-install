@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo pacman -Syu
+sudo pacman -S expac yajl git --noconfirm --needed
+git clone https://aur.archlinux.org/cower.git && cd cower \
+    && makepkg -i --skippgpcheck && cd -
+git clone https://aur.archlinux.org/pacaur.git && cd pacaur \
+    && makepkg -i && cd -
+pacaur -S - < ~/programs

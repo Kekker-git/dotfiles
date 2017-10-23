@@ -24,14 +24,15 @@
 (use-package backup)
 (use-package code)
 (use-package dot-mode)
-(use-package multiple-cursors
+(use-package magit
+  :bind ("C-x g" . magit-status))
+ (use-package multiple-cursors
   :ensure t
   :bind ("C-c c" . mc/edit-lines)
         ("C->" . mc/mark-next-like-this)
         ("C-<" . mc/mark-previous-like-this)
         ("C-c C-<" . mc/mark-all-like-this))
 (use-package org-mode
-  :mode "\\.org\\'"
   :bind ("C-c o" . org-mode)
   :init
   (add-hook 'org-mode-hook 'visual-line-mode))

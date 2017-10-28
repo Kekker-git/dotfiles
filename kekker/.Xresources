@@ -20,11 +20,11 @@ URxvt.foreground: white
 URxvt.saveLines: 12000
 
 ! Scrollbar stuff
-URxvt.scrollBar: true
-URxvt.scrollBar_right: true
-URxvt.scrollBar_left: false
-URxvt.scrollstyle: xterm
-URxvt.scrollBar_floating: true
+URxvt.scrollBar: false
+! URxvt.scrollBar_right: true
+! URxvt.scrollBar_left: false
+! URxvt.scrollstyle: xterm
+! URxvt.scrollBar_floating: true
 
 URxvt.secondaryWheel: 1
 

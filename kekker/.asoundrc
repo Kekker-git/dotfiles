@@ -2,6 +2,10 @@ pcm.!default {
     type hw
     card PCH
 }
+ctl.!default {
+    type hw
+    card PCH
+}
 pcm.dsp {
     type plug
     slave.pcm "dmix"

@@ -22,6 +22,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/kekker/"
  "d:/cygwin/home/Kekker_/dotfiles/"
  "d:/cygwin/home/Kekker_/.emacs.d/"
  "d:/cygwin/home/Kekker_/.emacs.d/lisp/"
@@ -47,6 +48,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/kekker/" (23028 57955 204145 55000) ".condarc" "sddm-deepin/" "pac-install" ".Xresources" ".emacs.d/" ".bash_logout" ".cache/" ".fehbg" ".bash_profile" ".pki/" ".terminfo/" ".asoundrc~" "../" ".xscreensaver" ".asoundrc" "aur" "programs" ".dmrc" "media/" ".python_history" ".conda/" ".config/" "Documents/" ".bash_history" ".bashrc" ".xinitrc" "./" "Downloads/" ".anaconda/" ".Xmodmap" ".gitconfig" ".Xauthority" ".gnupg/" ".local/" "Projects/" ".cmake/")
+
  ("d:/cygwin/home/Kekker_/.emacs.d/" (23021 30272 0 0) "_backups/" "lisp/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".emacs.d/" "../" "./")
 
  ("d:/cygwin/home/Kekker_/dotfiles/" (23021 30050 0 0) "programs" "kekker/" "aur" ".gitignore~" ".gitignore" ".git/" "../" "./")

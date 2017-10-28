@@ -1,332 +1,3 @@
-sudo mkdir hw3
-ls
-ls hw3/
-cd hw3/
-ls
-cat test 
-javac HW3.java 
-clear 
-ls
-cat HW3.java 
-nano HW3.java 
-javac HW3.java 
-clear
-javac HW3.java 
-nano HW3.java 
-javac HW3.java 
-clear
-javac HW3.java 
-ls
-javac Node.java 
-ls
-ls -a ~/ | grep emacs
-nano .Xresources
-cd
-git clone https://github.com/owainlewis/emacs-color-themes.git
-ls
-sudo mv emacs-color-themes/ .emacs.d/themes/
-1ls
-ls
-cd .emacs.d/themes/
-ls
-mv themes/* .
-ls
-rm install.sh 
-rm LICENSE 
-rm README.md 
-cd resources/
-us
-ls
-clear
-clear
-ls previews/
-rm -r previews/
-ls
-cat Parser.hs 
-rm Parser.hs 
-ls
-cd ..
-rm -r resources/
-ls
-mv emacs-color-themes.el ..
-cd ..
-ls
-rm emacs-color-themes.el 
-ls
-rm '#init.el\# '
-rm #init.el\# 
-rm \#init.el\# 
-ls
-clear
-cd 
-cd
-git clone https://github.com/whitlockjc/atom-dark-theme-emacs.git
-ls
-cd atom-dark-theme-emacs/
-ls
-cp atom-dark-theme.el 
-clear
-mv atom-dark-theme.el ../.emacs.d/themes/
-ls
-cd ..
-ls
-rm -r atom-dark-theme-emacs/
-ls
-ls
-rm \#*
-cd /
-find package.el
-find -h
-find
-clear
-find package
-find emacs
-find --help
-ls .emacs.d/
-sudo pacman -U emacs
-sudo pacman -S emacs
-xmodmap -e 'remove Lock = Caps_Lock'
-xmodmap -e 'remove Lock = 66'
-ls
-ls
-clear
-cd Projects/java/algAndData/hw3/
-ls
-javac HW3.java
-find package.el
-killall emacs
-cd .emacs.d/
-ls
-cd elpa/
-ls
-cd gnupg/
-ls
-cd ..
-cd ..
-find package.el
-ls
-ls auto-save-list/
-ls elpa/
-ls elpa/archives/
-ls elpa/archives/gnu/
-ls
-cd elpa/
-ls
-ls gnupg/
-ls
-cd multiple-cursors-20170908.1452/
-ls
-cd ..
-cd ..
-ls
-rm \#init.el*
-ls
-ls
-xrdb ~/.Xresources
-cat .Xresources
-emacs .Xresources
-cat .Xresources
-xrdb ~/.Xresources
-emacs .Xresources
-xrdb ~/.Xresources
-emacs .xinitrc
-xmodmap -e 'remove Lock = 66'
-cat .xinitrc
-xcompmgr -n
-sudo pacman -S xcompmgr transset-df
-clear
-xcompmgr -c
-xcompmgr -n
-xcompmgr -n
-sudo pacman -Rsc xcompmgr
-sudo pacman -Rsc transset-df
-clear
-sudo pacman -S compton-git
-yaourt compton-git
-yaourt compton-git
-yaourt compton-git
-clear
-xmodmap -e 'remove Lock = 66'
-cat .config/i3/config
-killall emacs
-killall emacs
-cd .emacs.d/elpa/
-ls
-cd
-reboot
-cd Projects/
-cd java/algAndData/hw3/
-ls
-javac Tree.java
-javac Tree.java
-javac Tree.java
-javac Node.java
-clear
-javac Node.java
-javac Node.java
-javac Node.java
-javac Node.java
-javac Node.java
-javac Tree.java
-clear
-javac Tree.java
-javac Tree.java
-clear
-javac Tree.java
-javac Tree.java
-javac Tree.java
-javac Tree.java
-javac Tree.java
-javac Node.
-javac Node.java
-clear
-javac Tree.java
-ls
-clear
-ls
-rm \#*
-ls
-cjnar
-clear 
-javac Tree.java
-sudo pacman -Rsc compton
-yaourt -Rsc compton-git
-clear
-javac Node.
-javac Node.java
-clear
-javac Tree.java
-javac Tree.java
-javac Tree.java
-ls
-clear
-ls
-javac Tree.java
-javac Tree.java
-javac Tree.java
-javac Tree.java
-clear
-clear
-javac Tree.java
-javac Tree.java
-cat .xmodmap
-showkey -k
-xev
-xev | grep KeyPress
-cd Projects/java/algAndData/hw3/
-ls
-javac Node.
-javac Node.java 
-javac Tree.java 
-javac Tree.java 
-javac Tree.java 
-javac Node.java
-clear
-javac Node.java
-javac Node.java
-javac Tree.java
-javac Tree.java
-javac Tree.java
-clear
-ls | grep xmodmap
-ls
-ls -a
-mv .xmodmap .Xmodmap
-ls
-ls -a
-rm .xmodmap~ 
-cat dead.letter 
-vi -r LOST
-clear
-xev | grep KeyPress
-xev | grep Key
-cat .Xmodmap 
-xmodmap
-xmodmap -h
-xmodmap .Xmodmap
-xmodmap -e 'remove Lock = 66'
-xmodmap .Xmodmap
-xmodmap .Xmodmap
-cat .Xmodmap
-xmodmap .Xmodmap
-.xini
-nano .xinitrc
-system-config-keyboard
-cd /usr/share/kbd/keymaps/
-ls
-cd include/
-lc
-ls
-clear
-ls
-clear
-cd ..
-ls
-cd
-localectl list-keymaps
-localectl list-keymaps
-clear
-sudo setxkbmap -layout us-colemak
-sudo setxkbmap -layout us -variant  colemak
-cat .config/i3/config
-cat /etc/rc.conf
-localectl set-keymap colemak
-nano .xinitrc
-ls
-clear
-ls
-startx
-clear
-exit
-reboot
-nano .xinitrc
-ls /usr/share/kbd/keymaps/**/*.map.dz
-ls /usr/share/kbd/keymaps/
-ls /usr/share/kbd/keymaps/include/
-cd /usr/share/kbd/keymaps/
-ls
-ls amiga/
-ls atari/
-ls i386/
-cd i386/
-ls
-ls colemak/
-cd
-loadkeys colemak
-sudo loadkeys colemak
-nano /etc/vconsole.conf 
-reboot
-nano .xinitrc
-nano .config/i3/config
-nano .config/i3/config
-clear
-startx
-clear
-cat .xinitrc
-setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout colemak
-sudo setxkbmap -layout us -variant colemak
-nano .xinitrc
-cat .xinitrc
-nano .xinitrc
-nano .xinitrc
 nano .config/i3/config
 nano .config/i3/config
 nano
@@ -498,3 +169,332 @@ localectl -h
 localectl set-x11-keymap us colemak
 localectl
 reboot
+clear
+mv ../p* .
+sudo mv ../p* .
+cd ..
+ls
+cd ..
+sudo chown -R home/ kekker
+sudo chown -R kekker home/
+cd home/kekker/
+clear
+ls
+sudo pac-install 
+sudo chmod +x pac-install 
+./pac-install 
+nano programs 
+clear
+git --config user.name "kekker.crane@gmail.com"
+git --config user.name "kekker-git"
+git push
+cd ..
+cd dotfiles/
+git push
+ls
+nano programs 
+clear
+ls
+git commit .
+pacman -S emacs
+cd ..
+cd kekker/
+clear
+sudo pac-install 
+ls
+sudo ./pac-install 
+rm -r cower/
+sudo rm -r cower/
+sudo rm -r pacaur/
+./pac-install 
+nano programs 
+clear
+ls
+rm -r cower/
+sudo rm -r cower/
+sudo rm -r pac
+sudo rm -r pacaur/
+./pac-install 
+nano pacaur/
+nano programs 
+clear
+nano programs 
+clear
+pacaur -S - < programs 
+pacman -S g++
+sudo pacman -S g++
+pacman -S gcc
+sudo pacman -S gcc
+clear
+nano programs 
+clear
+clear
+pacaur -S < programs 
+pacaur -S - < programs 
+pacaur -S libc++
+nano pac-install 
+git clone https://aur.archlinux.org/libc++.git
+cd libc++/
+makepkg -i --skippgpcheck
+pacman -S libunwind cmake
+sudo pacman -S libunwind cmake
+sudo pacman -S libunwind cmake python clang
+cd ..
+rm -r libc++/
+sudo rm -r libc++/
+clear
+git clone https://aur.archlinux.org/libc++.git
+rm -r libc++/
+sudo rm -r libc++/
+sudo pacman -S gcc-libs
+clear
+pacaur -S -< programs 
+rm -r .cache/pacaur/
+sudo rm -r .cache/pacaur/
+clear
+pacaur -S -< programs 
+nano programs 
+clear
+rm -r .cache/pacaur/
+sudo rm -r .cache/pacaur/
+clear
+pacaur -S - < programs 
+nano programs 
+rm -r .cache/pacaur/
+sudo rm -r .cache/pacaur/
+clear
+cat programs 
+ls
+rm -r cower/
+sudo rm -r cower/
+sudo rm -r pacaur/
+clear
+pacaur -S -< programs 
+sudo rm -r .cache/pacaur/
+echo $XDG_CACHE_HOME
+clear
+pacaur -Scc
+clear
+pacaur -S -< programs 
+pacaur -Rsc libc++
+ls
+clear
+pacaur -S libc++
+pacaur -S --skippgpcheck libc++
+sudo pacman -S llvm-libs
+nano programs 
+clear
+pacaur -S -< programs 
+cat programs 
+clear
+sudo systemctl enable sddm.service
+sudo pacman -S sddm
+clear
+sddm
+clear
+cat program
+cat programs
+blender
+alsa
+alsamixer
+pacaur -S -< programs 
+sddm
+nano programs 
+ls
+mv programs aur
+cat aur 
+nano aur 
+clear
+nano programs
+clear
+ls
+cat programs 
+sudo pacman -S -< programs 
+clear
+sddm
+sudo systemctl enable sddm.service
+pacman -S xf86-video-amdgpu
+sudo pacman -S xf86-video-amdgpu
+nano ../dotfiles/programs
+sudo nano ../dotfiles/programs
+clear
+clear
+exit
+nano /etc/sddm.conf 
+sudo nano /etc/sddm.conf 
+clear
+nano /usr/share/sddm/scripts/Xse
+nano /usr/share/sddm/scripts/Xsetup 
+sudo nano /usr/share/sddm/scripts/Xsetup 
+clear
+sudo pacman -S xorg-server xorg-apps
+clear
+startx
+xinit
+clear
+exit
+sudo pacman -S qupzilla
+unzip Ruluko.zip 
+mv *.ttf /usr/share/fonts/TTF/
+sudo mv *.ttf /usr/share/fonts/TTF/
+clear
+tar -xvf kekker.tar 
+ls
+cp dotfiles/kekker/* .
+sudo cp -r dotfiles/kekker/* .
+ls
+ls Pictures/
+rm -r dotfiles/
+sudo rm -r dotfiles/
+clear
+ls
+ls -a
+cat .Xresources 
+clear
+ls
+ls -a
+nano .config/i3/config 
+sh ~/.fehbg 
+nano .Xresources 
+clear
+exit
+clear
+clear
+nano .config/polybar/config
+clear
+sh ./.config/polybar/launch.sh 
+nano .config/polybar/
+nano .config/polybar/config
+polybar -l info kekker
+alsamixer
+cat programs 
+reboot
+ls
+cd sddm-deepin/
+ls
+ls -a
+cd ..
+rm -r sddm-deepin/
+sudo rm -r sddm-deepin/
+alra
+alsa
+amixer --help
+alsamixer
+amixer sset Master unmute
+nano .asoundrc 
+cat /usr/share/alsa/alsa.conf
+cat /usr/share/alsa/alsa.conf | grep defaults
+nano .asoundrc 
+sudo nano /usr/share/alsa/alsa.conf
+clear
+amixer
+amixer --help
+alsamixer
+alsamixer 
+sudo nano /usr/share/alsa/alsa.conf
+clear
+aplay -l
+cat .asoundrc
+nano .asoundrc
+emacs .asoundrc
+aplay -l
+aplay -l | awk -F \: '/,/{print $2}' | awk '{print $1}' | uniq
+usermod -m -d /home/kekker/ kekker
+su
+alsamixer
+cd ..
+ls
+cd dotfiles/
+cd kekker/
+ls
+cd ..
+ls
+nano aur 
+clear
+ls
+rm programs.bak 
+git commit .
+git add .
+git commit -m "Removed program backup file, added Anaconda to AUR list"
+git push
+cd ..
+cd kekker/
+ls
+cp -r .config/ ../dotfiles/kekker/
+cd ../dotfiles/kekker/
+ls -a
+cd .config/
+ls
+cd ../ke
+cd ../../kekker/
+ls
+cd ..
+ls
+cd kekker/
+ls
+ls -a
+cd 
+ls
+clear
+ls
+rm aur
+rm programs 
+cd .config/
+ls
+rm -r inkscape/
+cat QtProject.conf 
+rm QtProject.conf 
+ls poly
+ls polychromatic/
+cat polychromatic/preferences.json 
+clear
+ls
+rm -r polychromatic/
+sl
+ls
+clear
+cd
+cd ..
+ls
+cd dotfiles/
+ls
+ls -a
+cp -r .git ../kekker/
+cp .gitignore ../kekker/
+cp aur ../kekker/
+cp pac-install ../kekker/
+cp programs ../kekker/
+ls
+cd ..
+cd kekker/
+ls
+ls
+cat OFL.txt 
+clear
+ls
+rm -r OFL.txt 
+cp Ruluko.zip Downloads/
+cd ..
+sudo chown -R kekker kekker/
+cd kekker/
+cp Ruluko.zip Downloads/
+ls
+rm Ruluko.zip 
+clear
+ls
+ls .emacs.d/
+ls
+ls -a
+nano .Xmodmap 
+pkill emacs
+clear
+cd .emacs.d/
+ls
+cd elpa/
+ls
+cd ..
+clear
+cd ..
+pkill emacs
+sudo pacman -S emacs
+pkill emacs

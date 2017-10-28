@@ -1,9 +1,9 @@
-app.autostart-configured=true
+autologin.blob="wwnrkZYvd5PNysxpt9xXtkcM8Eb+fsQjkwctl2kFARCVLqsQTsW27jJW/7uV+R/3fYlL68ktGB3SnKtwiS5eQaA7WBSo9GNApxVeu7OdPGDN3Dtz3m/PsPdNOLqowbD0hMbOA6XZ1SNR3vDaQXFqslgANdeDvL+QZqAAT4XzFmI="
 storage.last-location="/home/kekker/.cache/spotify/Storage"
-core.facebook_machine_id="uP7KWMRndhjEBhaJhgr0GUHn"
+app.autostart-configured=true
 app.autostart-mode=""
+core.facebook_machine_id="uP7KWMRndhjEBhaJhgr0GUHn"
+core.clock_delta=-1
 autologin.username="kekker_"
-autologin.saved_credentials="{\"kekker_\":[\"kekker_\",\"Jcg5F88BnT2EVYmh4KNOYmj89fnS7v4KuZDC3B6bSsoMu9AYu3/w7v8rwJBRoyxVe4HGG057BIK0xI9QUDA2+vH7kime6pdpPsQbqxxmMnEgbzcnyFrKM48i62uhs/LCsrGMorbPxWrSwp1wdkVn15xPDWpqG9ac9aeVil+HUhs=\"]}"
-core.clock_delta=0
+autologin.saved_credentials="{\"kekker_\":[\"kekker_\",\"wwnrkZYvd5PNysxpt9xXtkcM8Eb+fsQjkwctl2kFARCVLqsQTsW27jJW/7uV+R/3fYlL68ktGB3SnKtwiS5eQaA7WBSo9GNApxVeu7OdPGDN3Dtz3m/PsPdNOLqowbD0hMbOA6XZ1SNR3vDaQXFqslgANdeDvL+QZqAAT4XzFmI=\"]}"
 autologin.canonical_username="kekker_"
-autologin.blob="Jcg5F88BnT2EVYmh4KNOYmj89fnS7v4KuZDC3B6bSsoMu9AYu3/w7v8rwJBRoyxVe4HGG057BIK0xI9QUDA2+vH7kime6pdpPsQbqxxmMnEgbzcnyFrKM48i62uhs/LCsrGMorbPxWrSwp1wdkVn15xPDWpqG9ac9aeVil+HUhs="

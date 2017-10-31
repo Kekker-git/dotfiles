@@ -1,0 +1,6 @@
+2017/10/27-23:55:51.882 2080 Reusing MANIFEST /home/kekker/.config/qupzilla/profiles/default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/27-23:55:51.882 2080 Recovering log #3
+2017/10/27-23:55:51.886 2080 Reusing old log /home/kekker/.config/qupzilla/profiles/default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2017/10/27-23:55:56.083 2166 Level-0 table #5: started
+2017/10/27-23:55:56.139 2166 Level-0 table #5: 4640214 bytes OK
+2017/10/27-23:55:56.140 2166 Delete type=0 #3

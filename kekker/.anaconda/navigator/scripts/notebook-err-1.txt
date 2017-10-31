@@ -1,0 +1,16 @@
+[I 15:57:30.333 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 15:57:30.363 NotebookApp] JupyterLab alpha preview extension loaded from /opt/anaconda/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 15:57:30.364 NotebookApp] Running the core application with no additional extensions or settings
+[I 15:57:30.365 NotebookApp] Serving notebooks from local directory: /home/kekker
+[I 15:57:30.365 NotebookApp] 0 active kernels 
+[I 15:57:30.365 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=1264121cfd9d4bf4b0353d65dbed2b4e52336dddcb1637af
+[I 15:57:30.365 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:57:30.365 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1264121cfd9d4bf4b0353d65dbed2b4e52336dddcb1637af
+[I 15:57:30.680 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 15:57:56.522 NotebookApp] interrupted

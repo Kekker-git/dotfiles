@@ -1,0 +1,103 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("d:/cygwin/home/Kekker_/Projects/Notes/" . "stats/")
+ ("d:/cygwin/home/Kekker_/Projects/" . "Notes/")
+ ("d:/cygwin/home/Kekker_/.emacs.d/" . "lisp/")
+ ("c:/Users/Kekker_/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/Kekker_/AppData/" . "Roaming/")
+ ("c:/Users/Kekker_/" . "AppData/")
+ ("c:/Users/" . "Kekker_/")
+ ("c:/" . "Users/")
+ ("d:/cygwin/home/Kekker_/" . "dotfiles/")
+ ("d:/cygwin/home/" . "Kekker_/")
+ ("d:/cygwin/" . "home/")
+ ("d:/Documents/Projects/Java/algAndData/" . "hw4/")
+ ("d:/Documents/Projects/Java/" . "algAndData/")
+ ("d:/Documents/Projects/" . "Java/")
+ ("d:/Documents/" . "Projects/")
+ ("d:/" . "cygwin/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/kekker/"
+ "d:/cygwin/home/Kekker_/dotfiles/"
+ "d:/cygwin/home/Kekker_/.emacs.d/"
+ "d:/cygwin/home/Kekker_/.emacs.d/lisp/"
+ "d:/cygwin/home/Kekker_/Projects/Notes/stats/"
+ "d:/Documents/Projects/Java/algAndData/hw4/"
+ "c:/Users/Kekker_/AppData/Roaming/.emacs.d/"
+ "d:/Documents/Projects/Java/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".gitignore"
+ "ido.last"
+ "defaults.el"
+ "init.el"
+ "chapter4questions.org"
+ "code.el"
+ "multicursor.el"
+ "backups.el"
+ "org.el"
+ "chapter4questions"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/kekker/" (23028 55393 100802 165000) "sddm-deepin/" "pac-install" ".Xresources" ".emacs.d/" ".bash_logout" ".gitignore" ".cache/" ".fehbg" ".bash_profile" ".pki/" ".terminfo/" ".asoundrc~" "../" ".xscreensaver" ".asoundrc" "aur" "programs" ".dmrc" "media/" ".python_history" ".config/" "Documents/" ".bash_history" ".bashrc" ".xinitrc" "./" "Downloads/" ".Xmodmap" ".gitconfig" ".git/" ".Xauthority" ".gnupg/" ".local/" "Projects/" ".cmake/")
+
+ ("d:/cygwin/home/Kekker_/.emacs.d/" (23021 30272 0 0) "_backups/" "lisp/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".emacs.d/" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/dotfiles/" (23021 30050 0 0) "programs" "kekker/" "aur" ".gitignore~" ".gitignore" ".git/" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/" (23021 29798 0 0) "Projects/" "dotfiles/" ".profile" ".inputrc" ".emacs.d/" ".bash_profile" ".bash_history" ".bashrc" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/.emacs.d/lisp/" (23021 28909 0 0) "dot-mode.el" "defaults.el" "code.el" "backups.el" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/Projects/Notes/stats/" (23021 29252 0 0) "chapter4questions.org~" "chapter4questions.org" "chapter4.org" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/.emacs.d/_backups/" (23021 1016 0 0) "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~4~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~3~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~31~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~30~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~2~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~29~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~28~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~27~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~26~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~7~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~6~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~5~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~4~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~3~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~2~" "!drive_d!Documents!Projects!Java!algAndData!hw4!output.txt.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!in1.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HW4.java.~2~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HW4.java.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HeapPriorityQueue.java.~1~" "!drive_d!Documents!Projects!Java!algAndData!hw4!HeapAdaptablePriorityQueue.java.~1~" "!drive_d!cygwin!home!Kekker_!Projects!Notes!stats!chapter4.~3~" "!drive_d!cygwin!home!Kekker_!Projects!Notes!stats!chapter4.~2~" "!drive_d!cygwin!home!Kekker_!Projects!Notes!stats!chapter4.~1~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~4~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~3~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~2~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~28~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~27~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~26~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~25~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~24~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~23~" "!drive_d!cygwin!home!Kekker_!.emacs.d!init.el.~1~" "!drive_d!cygwin!home!Kekker_!.emacs.d!ido.last~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~7~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~6~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~5~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~4~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~3~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~2~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!init.el.~1~" "!drive_c!Users!Kekker_!AppData!Roaming!.emacs.d!ido.last~" "../" "./")
+
+ ("d:/Programs/emacs/bin/" (23020 55424 0 0) "runemacs.exe" "libXpm-noX4.dll" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.3.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
+ ("c:/Users/Kekker_/AppData/Roaming/.emacs.d/" (23020 53738 0 0) "ido.last" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/Projects/Notes/" (23020 54279 0 0) "stats/" "../" "./")
+
+ ("d:/cygwin/home/Kekker_/Projects/" (23020 54273 0 0) "Python/" "Notes/" "Java/" "HTML/" "desktop.ini" "C++/" "../" "./")
+
+ ("d:/Programs/" (23019 27126 0 0) "VMWare/" "Steam/" "REAPER (x64)/" "qBittorrent/" "LibreOffice 5/" "Java/" "Git/" "Firefox/" "emacs/" "desktop.ini" "7-Zip/" "../" "./")
+
+ ("d:/Documents/Projects/Java/algAndData/hw4/" (23019 64239 0 0) "PriorityQueue.java" "PriorityQueue.class" "output" "in2" "in1" "HW4.java" "HW4.class" "HW4$Priority.class" "HW4$Patient.class" "HW4$Doctor.class" "HeapPriorityQueue.java" "HeapPriorityQueue.class" "HeapAdaptablePriorityQueue.java" "HeapAdaptablePriorityQueue.class" "HeapAdaptablePriorityQueue$AdaptablePQEntry.class" "Entry.java" "Entry.class" "DefaultComparator.java" "DefaultComparator.class" "AdaptablePriorityQueue.java" "AdaptablePriorityQueue.class" "AbstractPriorityQueue.java" "AbstractPriorityQueue.class" "AbstractPriorityQueue$PQEntry.class" "../" "./")
+
+ ("c:/Users/Kekker_/AppData/Roaming/" (23018 18449 0 0) "VMware/" "Sun/" "Spotify/" "Skype/" "qBittorrent/" "Mozilla/" "Microsoft/" "LibreOffice/" "et/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/Kekker_/AppData/" (23016 4108 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/Kekker_/" (23018 34497 0 0) "Videos/" "usb_driver/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Favorites/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".viminfo" ".gitconfig" ".bash_history" "../" "./")
+
+ ("c:/Users/" (23016 5118 0 0) "Public/" "Kekker_/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+
+ ("d:/cygwin/home/" (23018 33160 0 0) "Kekker_/" "../" "./")
+
+ ("d:/cygwin/" (23018 32165 0 0) "var/" "usr/" "tmp/" "sbin/" "lib/" "home/" "etc/" "dev/" "Cygwin.ico" "Cygwin.bat" "Cygwin-Terminal.ico" "bin/" "../" "./")
+
+ ("d:/Documents/Projects/Java/algAndData/" (23018 19228 0 0) "hw4/" "../" "./")
+
+ ("d:/Documents/Projects/Java/" (23018 19224 0 0) "algAndData/" "../" "./")
+
+ ("d:/Documents/Projects/" (23018 18772 0 0) "Python/" "Java/" "HTML/" "C++/" "../" "./")
+
+ ("d:/Documents/" (23018 18772 0 0) "Voicemeeter/" "Streamtip/" "StreamProjects/" "REAPER Media/" "puNES/" "Projects/" "programs.txt" "Overwatch/" "My Games/" "MouseAccelDriver/" "MIS/" "Mesen/" "makehuman/" "Kubbi - Ember (2015) WAV/" "importantstuff/" "house.skp" "house.skb" "GimpProjects/" "FeedbackHub/" "Electronic Arts/" "Dolphin Emulator/" "DnD/" "desktop.ini" "colemak-caps/" "Bluetooth Exchange Folder/" "Audacity/" "Assignment_Solver_Calvin_Williams.xlsx" "Activision/" "../" "./")
+
+ ("d:/.QtWebEngineProcess/" (22782 54090 0 0) "../" "./")
+
+ ("d:/Programs/emacs/" (23018 18438 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

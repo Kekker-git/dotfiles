@@ -1,0 +1,4 @@
+Serving notebooks from local directory: /home/kekker
+0 active kernels 
+The Jupyter Notebook is running at: http://localhost:8888/?token=1264121cfd9d4bf4b0353d65dbed2b4e52336dddcb1637af
+Shutdown this notebook server (y/[n])? 

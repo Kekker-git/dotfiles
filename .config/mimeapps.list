@@ -1,0 +1,15 @@
+[Added Associations]
+x-scheme-handler/http = exo-web-browser.desktop
+x-scheme-handler/https = exo-web-browser.desktop
+inode/directory = exo-file-manager.desktop
+x-scheme-handler/trash = exo-file-manager.desktop
+image/gif = inkscape.desktop;
+image/png = feh.desktop;
+image/jpeg = deepin-image-viewer.desktop
+
+
+[Default Applications]
+image/png = feh.desktop
+x-scheme-handler/tg = telegramdesktop.desktop
+image/jpeg = deepin-image-viewer.desktop
+

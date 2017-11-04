@@ -1,0 +1,5 @@
+[Bookmarks]
+[Recent]
+/home/kekker/Documents/
+/usr/share/fonts/TTF/
+/home/kekker/Pictures/

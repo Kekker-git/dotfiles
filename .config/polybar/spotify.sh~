@@ -1,0 +1,13 @@
+#!/bin/sh
+
+main() {
+  if ! pgrep -x mopidy >/dev/null; then
+    echo ""; exit
+  fi
+
+  meta=$(ncmpcpp --current-song="%a - %t")
+
+  echo "$meta"
+}
+
+main "$@"

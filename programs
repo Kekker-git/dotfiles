@@ -9,6 +9,9 @@ gimp
 gparted
 jack
 jdk8-openjdk
+networkmanager
+networkmanager-openvpn
+openvpn
 pcmanfm
 qbittorrent
 qt5-graphicaleffects

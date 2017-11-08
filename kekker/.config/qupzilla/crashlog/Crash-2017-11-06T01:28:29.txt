@@ -1,0 +1,31 @@
+Time: Mon Nov 6 01:28:29 2017
+Qt version: 5.9.2 (compiled with 5.9.2)
+QupZilla version: 2.2.0
+Rendering engine: QtWebEngine
+
+============== BACKTRACE ==============
+#0: qupzilla(+0x2ec8) [0x559078255ec8]
+#1: /usr/lib/libc.so.6(+0x34920) [0x7efc599c5920]
+#2: /usr/lib/libQt5Core.so.5(_ZN23QCoreApplicationPrivate29sendThroughObjectEventFiltersEP7QObjectP6QEvent+0x8c) [0x7efc5a575d3c]
+#3: /usr/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x78) [0x7efc5ab23f08]
+#4: /usr/lib/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x821) [0x7efc5ab2bf81]
+#5: /usr/lib/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x120) [0x7efc5a576060]
+#6: /usr/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb+0x1da) [0x7efc5ab2af0a]
+#7: /usr/lib/libQt5Widgets.so.5(+0x1a6d81) [0x7efc5ab7ed81]
+#8: /usr/lib/libQt5Widgets.so.5(+0x1a94c1) [0x7efc5ab814c1]
+#9: /usr/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x9c) [0x7efc5ab23f2c]
+#10: /usr/lib/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x2a6) [0x7efc5ab2ba06]
+#11: /usr/lib/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x120) [0x7efc5a576060]
+#12: /usr/lib/libQt5Gui.so.5(_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+0x704) [0x7efc51fe03d4]
+#13: /usr/lib/libQt5Gui.so.5(_ZN22QGuiApplicationPrivate24processWindowSystemEventEPN29QWindowSystemInterfacePrivate17WindowSystemEventE+0x136) [0x7efc51fe1f36]
+#14: /usr/lib/libQt5Gui.so.5(_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xac) [0x7efc51fb948c]
+#15: /usr/lib/libQt5XcbQpa.so.5(+0x9a4b1) [0x7efc3d5494b1]
+#16: /usr/lib/libglib-2.0.so.0(g_main_context_dispatch+0x310) [0x7efc4f304270]
+#17: /usr/lib/libglib-2.0.so.0(+0x6cf69) [0x7efc4f305f69]
+#18: /usr/lib/libglib-2.0.so.0(g_main_context_iteration+0x2e) [0x7efc4f305fae]
+#19: /usr/lib/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x61) [0x7efc5a5d0cd1]
+#20: /usr/lib/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x13b) [0x7efc5a57448b]
+#21: /usr/lib/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x98) [0x7efc5a57d4d8]
+#22: qupzilla(+0x27aa) [0x5590782557aa]
+#23: /usr/lib/libc.so.6(__libc_start_main+0xea) [0x7efc599b1f6a]
+#24: qupzilla(+0x296a) [0x55907825596a]

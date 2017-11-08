@@ -1,9 +1,14 @@
-autologin.blob="wwnrkZYvd5PNysxpt9xXtkcM8Eb+fsQjkwctl2kFARCVLqsQTsW27jJW/7uV+R/3fYlL68ktGB3SnKtwiS5eQaA7WBSo9GNApxVeu7OdPGDN3Dtz3m/PsPdNOLqowbD0hMbOA6XZ1SNR3vDaQXFqslgANdeDvL+QZqAAT4XzFmI="
+autologin.blob="ipOxLBwNyUiYSzDHGUqacsTYxPIKnrWe5Y5yhskbo0LXAA8UIHtMQv1MBrRTC8RNqQqBZ8O0uEgty8pmGLyF9BY3jDFv47EYpSLrJEGRT92JCjyHOcgwg8YXvdC5SfU07a6xGN0obcvZfE9dlEn7tNIYx5qni2YnFAWdxgfbdl0="
 storage.last-location="/home/kekker/.cache/spotify/Storage"
+app.window.position.height=1036
 app.autostart-configured=true
+app.window.position.saved=true
+app.window.position.y=32
 app.autostart-mode=""
 core.facebook_machine_id="uP7KWMRndhjEBhaJhgr0GUHn"
-core.clock_delta=-1
+app.window.position.x=964
+app.window.position.width=944
+core.clock_delta=-19
 autologin.username="kekker_"
-autologin.saved_credentials="{\"kekker_\":[\"kekker_\",\"wwnrkZYvd5PNysxpt9xXtkcM8Eb+fsQjkwctl2kFARCVLqsQTsW27jJW/7uV+R/3fYlL68ktGB3SnKtwiS5eQaA7WBSo9GNApxVeu7OdPGDN3Dtz3m/PsPdNOLqowbD0hMbOA6XZ1SNR3vDaQXFqslgANdeDvL+QZqAAT4XzFmI=\"]}"
+autologin.saved_credentials="{\"kekker_\":[\"kekker_\",\"ipOxLBwNyUiYSzDHGUqacsTYxPIKnrWe5Y5yhskbo0LXAA8UIHtMQv1MBrRTC8RNqQqBZ8O0uEgty8pmGLyF9BY3jDFv47EYpSLrJEGRT92JCjyHOcgwg8YXvdC5SfU07a6xGN0obcvZfE9dlEn7tNIYx5qni2YnFAWdxgfbdl0=\"]}"
 autologin.canonical_username="kekker_"

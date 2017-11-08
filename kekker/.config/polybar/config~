@@ -77,7 +77,7 @@ interval = 10
 
 mount-0 = /home
 
-label-mounted = /dev/sdb: %{F#bada55}%percentage_used%%%{F-}
+label-mounted = /dev/sdc: %{F#bada55}%percentage_used%%%{F-}
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -242,7 +242,8 @@ ramp-signal-foreground = ${colors.foreground-alt}
 [module/eth]
 type = internal/network
 interface = enp7s0
-interval = 3.0
+;interval = 3.0
+accumulate-stats = true
 
 format-connected-prefix = "eth: "
 format-connected-prefix-foreground = ${colors.foreground}
@@ -293,9 +294,9 @@ bar-volume-foreground-6 = #ff5555
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
-bar-volume-fill = ─
+bar-volume-fill = -
 bar-volume-fill-font = 2
-bar-volume-empty = ─
+bar-volume-empty = -
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
